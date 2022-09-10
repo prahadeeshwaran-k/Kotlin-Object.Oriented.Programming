@@ -1,18 +1,28 @@
 
 fun main(array: Array<String>){
-    class Car{
+    val myCar:Car = Car()
+    val yourCar = Car()
 
-        var model:String? = null
-        var topSpeed = 100
+    myCar.model = "BMW"
+    yourCar.model = "Toyota"
 
-        fun start(){
-            println("Starting The $model")
-        }
+    myCar.start()
+    myCar.drive(89)
 
-        fun drive(speed:Int){
-            print("Driver at a speed od $speed")
-        }
+    yourCar.start()
+    yourCar.drive(67)
+}
 
 
+class Car{
+    var model:String? = null
+    var topSpeed:Int = 100
+
+    fun start(){
+        println("Starting The $model")
+    }
+
+    fun drive(speed:Int){
+        print("Driver at a speed od $speed\n")
     }
 }
