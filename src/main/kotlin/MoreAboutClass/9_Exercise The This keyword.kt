@@ -1,6 +1,5 @@
 fun main(array: Array<String>) {
     val myTable = NewTable()
-    my
 
 }
 
