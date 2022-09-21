@@ -1,16 +1,11 @@
 fun main(){
-    var myRestaurant = Franchise()
-    myRestaurant.prepareBurgers()
+    val s1 = "Cat"
+    val s2 = "This is Long String"
+    val s3 = ""//empty String
+    val s4 = "the answer is \"yes\"can we do\\ or not"
+    println(s1)
+    println(s2)
+    println(s3)
+    println(s4)
 
-}
-open class OriginalRestaurant{
-    protected fun applyFormula():String{
-        return "Prepare burgers with love and care"
-    }
-}
-class Franchise: OriginalRestaurant(){
-    fun prepareBurgers(){
-        println("Preparing burgers Accordind to th secret formula")
-        println(applyFormula())
-    }
 }
