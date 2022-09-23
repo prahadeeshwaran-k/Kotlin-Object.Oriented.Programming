@@ -1,14 +1,14 @@
 fun main(){
 
-    val container:Container = Bottel()
+    val container:Containers = Bottels()
     container.pour()
 }
 abstract class Containers {
     abstract fun pour()
 
 }
-class Bottel: Containers(){
-    override fun fill(){
+class Bottels: Containers(){
+     fun fill(){
         println("filling bottel")
     }
 
