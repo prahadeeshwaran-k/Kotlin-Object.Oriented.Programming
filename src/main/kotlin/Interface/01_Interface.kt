@@ -11,5 +11,4 @@ interface Oven {
     fun cook(temp:Int){
         println("Cooking at $temp degrees")
     }
-
 }
