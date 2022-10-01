@@ -5,6 +5,4 @@ fun main(){
     val requiredColour = listOf("red","green","blue")
     val avaibleColour = listOf("red","blue","green")
     println("can print: ${requiredColour.containsAll(avaibleColour)} ")
-
-    val ingrediens = arrayListof("chicken","Egg","Mozzarella","pepper")
 }
