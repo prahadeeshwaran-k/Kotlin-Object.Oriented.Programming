@@ -5,4 +5,5 @@ fun main(){
     println(colours.contains("pink"))
     val colours2= listOf<String>("red","blue")
     println(colours.containsAll(colours2))
+    println(colours.indexOf("red"))
 }
