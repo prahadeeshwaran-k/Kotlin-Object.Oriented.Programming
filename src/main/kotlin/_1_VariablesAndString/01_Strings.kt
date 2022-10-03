@@ -7,5 +7,4 @@ fun main(){
     println(s2)
     println(s3)
     println(s4)
-
 }
