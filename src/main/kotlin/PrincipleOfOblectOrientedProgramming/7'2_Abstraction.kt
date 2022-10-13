@@ -5,13 +5,11 @@ fun main(){
 }
 abstract class Containers {
     abstract fun pour()
-
 }
 class Bottels: Containers(){
-     fun fill(){
+    fun fill(){
         println("filling bottel")
     }
-
     override fun pour() {
         println("poring")
     }
