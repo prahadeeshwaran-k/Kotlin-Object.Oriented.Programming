@@ -12,7 +12,7 @@ class FTPService :NetworkService(){
         println("Transferring a file via FTP")
     }
 }
-fun getNetworkService():NetworkService{
+fun getNetworkService(): NetworkService {
     return if (Random.nextInt()%2==0)
         NetworkService()
     else
